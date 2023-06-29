@@ -1,6 +1,7 @@
 {
   "name": "radix-poc",
   "private": true,
+  "homepage": "https://thaborach.github.io/radix-poc/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
