@@ -14,7 +14,7 @@ const Tab = ({ options }: TabProps) => {
       onValueChange={(value) => setActiveTab(value)}
       defaultValue="login"
     >
-      <Tabs.List aria-label="Manage your account">
+      <Tabs.List aria-label="Manage your account" className="flex">
         {options.map(({ value, label }, index) => (
           <Tabs.Trigger
             key={`${value}${index}`}

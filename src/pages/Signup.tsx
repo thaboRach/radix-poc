@@ -3,6 +3,8 @@ import Dropdown from "../components/Dropdown";
 import { languages } from "../utils/constants";
 import Button from "../components/Button";
 import { CheckMark } from "../assets";
+import Checkbox from "../components/Checkbox";
+import DatePicker from "../components/DatePicker";
 
 const Signup = () => {
   function onClick() {
@@ -37,9 +39,9 @@ const Signup = () => {
           options={languages}
           placeholder="Preferred coding language"
         />
-        {/* <Calendar /> */}
+        <DatePicker />
         <div className="flex items-center gap-4">
-          {/* <CheckBox label="AGREE TO TERMS?" name="agreeToTerms" /> */}
+          <Checkbox name="agreeToTerms" label="AGREE TO TERMS?" />
           <Button border="circle" onClick={onClick} type="submit">
             <img
               className="w-[15px] h-[15px]"
