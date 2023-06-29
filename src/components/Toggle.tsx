@@ -6,17 +6,9 @@ type ToggleProps = {
   label: string;
   required?: boolean;
   disabled?: boolean;
-  alignLabel?: "left" | "right";
 };
 
-const Toggle = ({
-  id,
-  name,
-  label,
-  required,
-  disabled,
-  alignLabel = "left",
-}: ToggleProps) => {
+const Toggle = ({ id, name, label, required, disabled }: ToggleProps) => {
   return (
     <div className="flex items-center gap-2 w-fit">
       <Switch.Root
