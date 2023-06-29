@@ -39,8 +39,8 @@ const Splash = ({ onNext }: SplashProps) => {
         <hr className="w-full bg-[rgba(255, 255, 255, 0.25)]" />
         <p className="text-white text-xs">
           Made using{" "}
-          <a className="underline" href="https://ark-ui.com/">
-            Ark UI
+          <a className="underline" href="https://www.radix-ui.com/">
+            Radix UI
           </a>
         </p>
       </footer>
